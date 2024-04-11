@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+}
+
+.box{
+    background-color: black;
+    background-size: 400px;
+    height: 100px;
+    transition: 1000ms;
+    padding: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box h1{
+    margin-top: 0px;
+}
+
+.sazlik{
+    border-radius: 20px;
+    border: 2px solid red;
+    border: 10px dashed rgb(190, 175, 38);
+    opacity: 4;
+}   
+#button1{
+    color: black;
+}
+#button2{
+    color: black;
+}
+.p1{
+    background-color: green;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.p2{
+    background-color: rgb(128, 0, 0);
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.mousemove{
+    height: 50px;
+    width: 50px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+}
